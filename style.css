@@ -143,3 +143,12 @@ color:white;
 text-align:center;
 padding:20px;
 }
+.social-links i{
+    font-size: 28px;
+    margin: 0 10px;
+}
+
+.social-links a{
+    color: white;
+    text-decoration: none;
+}
