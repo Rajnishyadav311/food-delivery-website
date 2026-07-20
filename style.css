@@ -52,6 +52,16 @@ img{
     p{
         font-size: 16px;
     }
+
+    nav ul li a:hover{
+    color:#00bfff;
+}
+
+    .content button:hover{
+    color:#39819a;
+    background-color: aliceblue;
+}
+
 }
 nav h2{
     color: #ff9800;
