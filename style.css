@@ -52,16 +52,6 @@ img{
     p{
         font-size: 16px;
     }
-
-    nav ul li a:active{
-    color:#00bfff;
-}
-
-    .content button:hover{
-    color:#39819a;
-    background-color: aliceblue;
-}
-
 }
 nav h2{
     color: #ff9800;
@@ -103,10 +93,6 @@ nav ul li a:hover{
     cursor: pointer;
     border-radius: 12px;
     background-color: rgba(255,152,0);
-}
-.content button:hover{
-    color:#39819a;
-    background-color: aliceblue;
 }
 .menu{
     display: flex;
