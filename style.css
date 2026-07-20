@@ -65,6 +65,9 @@ nav ul li a{
    color: white;
    text-decoration: none;
 }
+nav ul li a:hover{
+    color:#00bfff;
+}
 .Hero{
   height: 90vh;
   background: url("assets/image/restaurant.png");
@@ -91,6 +94,10 @@ nav ul li a{
     border-radius: 12px;
     background-color: rgba(255,152,0);
 }
+.content button:hover{
+    color:#39819a;
+    background-color: aliceblue;
+}
 .menu{
     display: flex;
     justify-content: center;
@@ -109,11 +116,6 @@ nav ul li a{
     /* box-shadow: 0 5px 15px rbga(0,0,0,0,.2); */
     box-shadow:0 5px 15px rgba(0,0,0,.2);
 }
-/* .card img{
-    width: 100px;
-    height: 180px;
-    object-fit: cover;
-} */
 .card:hover{
 transform:translateY(-10px);
 }
@@ -131,17 +133,11 @@ margin:15px 0;
 .card p{
 margin-bottom:15px;
 }
-/* .card r2{
-    display: flex;
-   justify-content: center;
-   align-items: center;
-} */
-
 footer{
 background:#222;
 color:white;
 text-align:center;
-padding:20px;
+/* padding:20px; */
 }
 .social-links i{
     font-size: 28px;
@@ -151,4 +147,8 @@ padding:20px;
 .social-links a{
     color: white;
     text-decoration: none;
+    margin: 0 10px;
+}
+.social-links a:hover{
+    color: orange;
 }
