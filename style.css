@@ -53,7 +53,7 @@ img{
         font-size: 16px;
     }
 
-    nav ul li a:hover{
+    nav ul li a:active{
     color:#00bfff;
 }
 
